@@ -2,15 +2,15 @@
 //import { Component, EventEmitter, Output, output, signal } from '@angular/core';
 import { Component, signal } from '@angular/core';
 
-import { FormsModule } from '@angular/forms';
+//import { FormsModule } from '@angular/forms';
 import { InvestmentService } from '../investment.service';
 //import type { InvestmentInput } from '../investment-input.model';
 
 
 @Component({
   selector: 'app-user-input',
-  standalone: true,
-  imports: [FormsModule],
+  //standalone: true,
+ // imports: [FormsModule],
   templateUrl: './user-input.component.html',
   styleUrl: './user-input.component.css'
 })

@@ -10,10 +10,10 @@ import { InvestmentInput } from './investment-input.model';
 @Component({
   selector: 'app-root',
   //standalone: true,   removed  for  migrating  to  angular module 
-  standalone: true, 
+  //standalone: true, 
   //imports: [RouterOutlet],
  // removed  for migrating to angular  module  both  imports  and standalone
-  imports:[HeaderComponent, UserInputComponent, InvestmentResultsComponent],
+ // imports:[HeaderComponent, UserInputComponent, InvestmentResultsComponent],
   
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
